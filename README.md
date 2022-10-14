@@ -9,3 +9,13 @@ Repo Ini hanya pengumpulan tugas android saja :)
 </details>
 
 <hr />
+
+<details>
+<summary>Tugas Pertemuan 2</summary>
+<br/>
+
+<video controls="controls" width="800" height="600" name="Video Name">
+  <source src="./media/P2.mov">
+</video>
+
+</details>
