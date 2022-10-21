@@ -25,7 +25,7 @@ Repo Ini hanya pengumpulan tugas android saja :)
 
 <br/>
 
-<img src="./media/P3_Intent.gif" alt="Gambar Petemuan 3 Intent" width="200"/>
+<img src="./media/Intent_P3.gif" alt="Gambar Petemuan 3 Intent" width="200"/>
 
 <br/>
 
