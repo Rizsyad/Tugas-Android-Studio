@@ -14,8 +14,21 @@ Repo Ini hanya pengumpulan tugas android saja :)
 <summary>Tugas Pertemuan 2</summary>
 <br/>
 
-<video controls="controls" width="800" height="600" name="Video Name">
-  <source src="./media/P2.mov">
-</video>
+<img src="./media/P2.gif" alt="Gambar Petemuan 2" width="200"/>
+
+</details>
+
+<hr />
+
+<details>
+<summary>Tugas Pertemuan 3</summary>
+
+<br/>
+
+<img src="./media/P3_Intent.gif" alt="Gambar Petemuan 3 Intent" width="200"/>
+
+<br/>
+
+<img src="./media/P3_Fragment.gif" alt="Gambar Petemuan 3 Fragment" width="200"/>
 
 </details>
