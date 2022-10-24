@@ -14,9 +14,11 @@ Repo Ini hanya pengumpulan tugas android saja :)
 
 <details>
 <summary>Tugas Pertemuan 2</summary>
-<br/>
 
+<br/>
 <img src="./media/P2.gif" alt="Gambar Petemuan 2" width="200"/>
+<br/>
+<img src="./media/P2_Relatif.gif" alt="Gambar Petemuan 2 RelativeLayout" width="200" />
 
 </details>
 
