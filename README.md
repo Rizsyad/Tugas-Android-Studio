@@ -7,7 +7,7 @@ Repo Ini hanya pengumpulan tugas android saja :)
 
 <br/>
 
-<img src="./media/P1.png" alt="Gambar Petemuan 1" width="200"/>
+<img src="./media/P1.gif" alt="Gambar Petemuan 1" width="200"/>
 </details>
 
 <hr />
