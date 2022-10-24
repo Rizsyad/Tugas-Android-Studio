@@ -4,7 +4,9 @@ Repo Ini hanya pengumpulan tugas android saja :)
 
 <details>
 <summary>Tugas Pertemuan 1</summary>
+
 <br/>
+
 <img src="./media/P1.png" alt="Gambar Petemuan 1" width="200"/>
 </details>
 
@@ -25,10 +27,14 @@ Repo Ini hanya pengumpulan tugas android saja :)
 
 <br/>
 
-<img src="./media/Intent_P3.gif" alt="Gambar Petemuan 3 Intent" width="200"/>
+<img src="./media/P3_Intent.gif" alt="Gambar Petemuan 3 Intent" width="200"/>
 
 <br/>
 
 <img src="./media/P3_Fragment.gif" alt="Gambar Petemuan 3 Fragment" width="200"/>
+
+<br/>
+
+<img src="./media/P3_pretest.gif" alt="Gambar Petemuan 3 Pretest" width="200"/>
 
 </details>
