@@ -37,9 +37,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.decreaseTeam2:
                 // Decrement the score and update the TextView
-                 mScore2--;
-                 mScoreText2.setText(String.valueOf(mScore2));
-                 break;
+                mScore2--;
+                mScoreText2.setText(String.valueOf(mScore2));
+                break;
             default:
                 break;
         }

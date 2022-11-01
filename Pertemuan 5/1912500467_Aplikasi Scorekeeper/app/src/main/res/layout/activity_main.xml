@@ -51,7 +51,6 @@
             android:background="@drawable/button_background"
             style="@style/PlusButtons" />
 
-
     </RelativeLayout>
 
     <RelativeLayout
@@ -98,7 +97,6 @@
             android:onClick="increaseScore"
             android:background="@drawable/button_background"
             style="@style/PlusButtons" />
-
 
     </RelativeLayout>
 
