@@ -3,6 +3,7 @@
 Repo Ini hanya pengumpulan tugas android saja :)
 
 <details>
+
 <summary>Tugas Pertemuan 1</summary>
 
 <br/>
@@ -38,5 +39,16 @@ Repo Ini hanya pengumpulan tugas android saja :)
 <br/>
 
 <img src="./media/P3_pretest.gif" alt="Gambar Petemuan 3 Pretest" width="200"/>
+
+</details>
+
+<hr />
+
+<details>
+<summary>Tugas Pertemuan 4</summary>
+
+<br/>
+
+<img src="./media/P4.gif" alt="Gambar Petemuan 4" width="200"/>
 
 </details>
