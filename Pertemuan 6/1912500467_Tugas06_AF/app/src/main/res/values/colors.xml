@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#CE8418</color>
+    <color name="white">#FFFFFF</color>
+    <color name="accent">#333333</color>
+    <color name="background">#EBEBEB</color>
+    <color name="trendingStart">#CE8418</color>
+    <color name="trendingEnd">#A06712</color>
+    <color name="divinder">#D6D6D6</color>
+</resources>
