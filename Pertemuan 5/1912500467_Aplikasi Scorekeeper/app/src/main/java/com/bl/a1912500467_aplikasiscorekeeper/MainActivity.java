@@ -29,14 +29,18 @@ public class MainActivity extends AppCompatActivity {
 
     public void decreaseScore(View view) {
         int viewID = view.getId();
+
         switch (viewID) {
             // If it was on Team 1 case R.id.decreaseTeam1:
             case R.id.decreaseTeam1:
+                if(mScore1 == 0) return;
+
                 mScore1--;
                 mScoreText1.setText(String.valueOf(mScore1));
                 break;
             case R.id.decreaseTeam2:
-                // Decrement the score and update the TextView
+                if(mScore2 == 0) return;
+
                 mScore2--;
                 mScoreText2.setText(String.valueOf(mScore2));
                 break;

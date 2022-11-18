@@ -13,12 +13,69 @@
         android:orientation="vertical">
 
         <Button
-            android:id="@+id/cupcake"
+            android:id="@+id/lollipop"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="7dp"
             android:background="@drawable/tombol_edge"
-            android:text="Android 1.5 Cupcake" />
+            android:text="Android 5.0 (Lollipop)" />
+
+        <Button
+            android:id="@+id/marshmallow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/tombol_edge"
+            android:text="Android 6.0 (Marshmallow)" />
+
+        <Button
+            android:id="@+id/nougat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/tombol_edge"
+            android:text="Android 7.0 (Nougat)" />
+
+        <Button
+            android:id="@+id/oreo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/tombol_edge"
+            android:text="Android 8.0 (Oreo)" />
+
+        <Button
+            android:id="@+id/pie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/tombol_edge"
+            android:text="Android 9.0 Pie" />
+
+        <Button
+            android:id="@+id/android10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/tombol_edge"
+            android:text="Android 10.0" />
+
+        <Button
+            android:id="@+id/android11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="7dp"
+            android:background="@drawable/tombol_edge"
+            android:text="Android 11.0" />
+
+
+<!--        <Button-->
+<!--            android:id="@+id/cupcake"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginBottom="7dp"-->
+<!--            android:background="@drawable/tombol_edge"-->
+<!--            android:text="Android 1.5 Cupcake" />-->
 
     </LinearLayout>
 

@@ -11,7 +11,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.1912500467_AplikasiGabungan_AF">
         <activity
-            android:name=".CupCakeActivity"
+            android:name=".Android11Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Android10Activity"
+            android:exported="false" />
+        <activity
+            android:name=".PieActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OreoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NougatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MarshMallowActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LollipopActivity"
             android:exported="false" />
         <activity
             android:name=".ScrollViewActivity"

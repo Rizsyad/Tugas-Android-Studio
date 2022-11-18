@@ -2,8 +2,32 @@
     <string name="app_name">1912500467_AplikasiGabungan_AF</string>
     <string name="title_activity_maps">MapsActivity</string>
 
-    <string name="Penjelasan_Cupcake">
-        Pada tanggal 27 April 2009 Google juga merilis Android versi Cupcake. Cupcake adalah versi Android yang memulai tradisi penamaan kue untuk rilis Android. Ini dapat menambahkan beberapa fitur dan peningkatan baru dibanding versi sebelumnya
+    <string name="penjelasan_lollipop">
+        Android 5.0 Lollipop pertama kali diperkenalkan pada Mei 2014.,Android lollipopmerupakan perancangan ulang terbesar untuk Android. Smartphone Google Nexus 6, bersama dengan tablet Nexus 9-nya, merupakan perangkat pertama yang memiliki Lollipop yang telah terpasang sebelumnya.
+    </string>
+
+    <string name="penjelasan_marshmallow">
+        Android 6.0 (Marshmallow) Di rilis pada tahun 2015. Ini Perangkat pertama yang dikirim bersama Marshmallow yang telah terpasang sebelumnya adalah smartphone Google Nexus 6P dan Nexus 5X, dengan tablet Pixel C-nya. Tujuan marshmallow memoles sudut kasar dan membuat versi Lollipop lebih baik lagi.
+    </string>
+
+    <string name="penjelasan_nougat">
+        Android 7.0 (Nougat) Dirilis pada Tahun ,2016. Sebelum Nougat terungkap "Android N" dirujuk secara internal oleh Google sebagai "New York Cheesecake".
+    </string>
+
+    <string name="penjelasan_oreo">
+        Pada bulan Maret 2017, Google Rilis Android 8.0 Oreo,bulan Agustus, Google mengkonfirmasi Oreo akan menjadi nama publik untuk Android 8.0. Sperti yang kita ketahui Ini adalah kedua kalinya Google memilih nama merek dagan untuk Android (Oreo dimiliki oleh Nabisco).
+    </string>
+
+    <string name="penjelasan_pie">
+        Android Pie adalah versi utama kesembilan dari sistem operasi Android. Ini pertama kali diumumkan oleh Google pada 7 Maret 2018, dan pratinjau pengembang pertama dirilis pada hari yang sama. Pratinjau kedua, dianggap sebagai kualitas beta, dirilis pada 8 Mei 2018. Beta terakhir Android Pie (pratinjau kelima, juga dianggap sebagai "Kandidat Rilis") dirilis pada 25 Juli 2018. Rilis resmi pertama dirilis pada 6 Agustus 2018.
+    </string>
+
+    <string name="penjelasan_android10">
+        Android 10 adalah versi utama kesepuluh dari sistem operasi Android. Versi stabil Android 10 dirilis pada 3 September 2019.
+    </string>
+
+    <string name="penjelasn_android11">
+        Android 11 adalah versi utama kesebelas dari sistem operasi Android. Ini pertama kali diumumkan oleh Google pada 19 Februari 2020, dan pratinjau pengembang pertama dirilis pada hari yang sama.
     </string>
 
 

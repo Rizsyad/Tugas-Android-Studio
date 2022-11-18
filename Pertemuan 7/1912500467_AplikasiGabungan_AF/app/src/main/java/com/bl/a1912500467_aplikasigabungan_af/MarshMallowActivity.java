@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class CupCakeActivity extends AppCompatActivity {
+public class MarshMallowActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_cup_cake);
+        setContentView(R.layout.activity_marsh_mallow);
     }
 }

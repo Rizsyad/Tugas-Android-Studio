@@ -5,13 +5,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".CupCakeActivity"
+    tools:context=".Android10Activity"
     android:orientation="vertical">
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/ic_launcher_background" />
+        android:layout_height="200dp"
+        android:src="@drawable/android10" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -22,7 +22,9 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:textColor="#000"
-            android:text="@string/Penjelasan_Cupcake" />
+            android:layout_marginRight="9dp"
+            android:justificationMode="inter_word"
+            android:text="@string/penjelasan_android10" />
 
     </ScrollView>
 </LinearLayout>
