@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerpustakaanActivity">
+
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tablayout"
+        app:tabMode="scrollable"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/cyan_process"
+        app:tabIconTint="@color/st_patricks_blue"
+        app:tabIndicatorColor="@color/white"
+        app:tabPadding="5dp"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/st_patricks_blue" />
+
+    <com.bl.utstipeaganjil_1912500467_rizsyadar_af.CutomeViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tablayout" />
+
+
+</RelativeLayout>

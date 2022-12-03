@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray"
+    tools:context=".MainActivity">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="145dp"
+        android:background="@drawable/header"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/selamat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="15dp"
+            android:text="Salam Budi Luhur,"
+            android:textColor="@color/gray"
+            android:textSize="19dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:text="Rizsyad Abiyandra Riyadi"
+            android:textColor="@color/gray"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/selamat"
+            app:layout_constraintTop_toBottomOf="@+id/selamat" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="-50dp"
+        app:layout_constraintTop_toBottomOf="@+id/header">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/listscroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Kampus -->
+            <LinearLayout
+                android:id="@+id/kampus"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/rectangle_background"
+                android:gravity="center"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 1:1"
+                app:layout_constraintEnd_toStartOf="@id/akademik"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/logobl"
+                    android:layout_margin="8dp"
+                    android:contentDescription="Logo BL"
+                    android:padding="8dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kampus"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/st_patricks_blue"
+                    />
+
+            </LinearLayout>
+
+            <!-- akademik -->
+            <LinearLayout
+                android:id="@+id/akademik"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/rectangle_background"
+                android:gravity="center"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 1:1"
+                app:layout_constraintStart_toEndOf="@+id/kampus"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/academic"
+                    android:layout_margin="8dp"
+                    android:contentDescription="Akademik"
+                    android:padding="8dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Akademik"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/st_patricks_blue"/>
+
+            </LinearLayout>
+
+            <!-- perpustakaan -->
+            <LinearLayout
+                android:id="@+id/perpustakaan"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/rectangle_background"
+                android:gravity="center"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 1:1"
+                app:layout_constraintEnd_toStartOf="@id/akademik"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/kampus">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/library"
+                    android:layout_margin="8dp"
+                    android:contentDescription="Perpustakaan"
+                    android:padding="8dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Perpustakaan"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/st_patricks_blue"/>
+
+            </LinearLayout>
+
+            <!--    kantin -->
+            <LinearLayout
+                android:id="@+id/kantin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/rectangle_background"
+                android:gravity="center"
+                android:padding="15dp"
+                app:layout_constraintDimensionRatio="H, 1:1"
+                app:layout_constraintStart_toEndOf="@id/kampus"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/akademik">
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/canteen"
+                    android:layout_margin="8dp"
+                    android:contentDescription="Kantin"
+                    android:padding="8dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kantin"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="@color/st_patricks_blue"/>
+
+            </LinearLayout>
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </ScrollView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/rectangle_background"
+        app:layout_constraintBottom_toBottomOf="@+id/scroll"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="450dp">
+
+        <TextView
+            android:id="@+id/titlesosmed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:padding="10dp"
+            android:textStyle="bold"
+            android:textColor="@color/st_patricks_blue"
+            android:text="Media Sosial" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@+id/titlesosmed">
+
+            <ImageView
+                android:id="@+id/fb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/facebook" />
+
+            <ImageView
+                android:id="@+id/ig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/instagram" />
+
+            <ImageView
+                android:id="@+id/twit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/twitter" />
+
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
