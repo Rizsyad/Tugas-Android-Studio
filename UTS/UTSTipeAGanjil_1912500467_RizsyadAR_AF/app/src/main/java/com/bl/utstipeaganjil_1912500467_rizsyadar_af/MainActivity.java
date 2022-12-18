@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.fb:
-                Intent IntentFb = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/groups/universitasbudiluhur"));
+                Intent IntentFb = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.facebook.com/"));
                 startActivity(IntentFb);
                 break;
             case R.id.twit:
